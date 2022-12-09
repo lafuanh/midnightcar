@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    >
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/main_home"
+            android:title="@string/nav_Home"
+            />
+
+    </group>
+
+    <item android:id="@+id/nav_home"
+        android:title="Menu"
+        >
+
+
+        <menu>
+            <item android:id="@+id/menu_carlist"
+                android:title="@string/title_menu1"
+                />
+            <item android:id="@+id/menu_mode"
+                android:title="@string/title_menu2"
+                />
+            <item android:id="@+id/menu_maps"
+                android:title="@string/title_menu3"
+
+                />
+            <item android:id="@+id/menu_history"
+                android:title="@string/title_menu4"
+              />
+        </menu>
+    </item>
+
+    <item android:id="@+id/nav_message"
+        android:title="refer"
+        >
+
+        <menu>
+            <item android:id="@+id/menu_aboutme"
+                android:title="@string/titleAboutMe"
+               />
+            <item android:id="@+id/menu_credits"
+                android:title="@string/nav_credits"
+               />
+
+        </menu>
+    </item>
+</menu>

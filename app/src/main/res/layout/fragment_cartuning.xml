@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".fragment_aboutme1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlue">
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".aboutmepage"
+
+            android:background="@color/darkBlue"
+            >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/buttonNav"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_nav"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="3dp"
+
+                    android:layout_toEndOf="@+id/buttonNav"
+
+                    android:text="@string/title_CarTuning"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/buttonProfile"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="14dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_profile"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+            </RelativeLayout>
+
+
+        <androidx.gridlayout.widget.GridLayout
+
+            android:id="@+id/id_carTuning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:columnCount="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.172"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+            app:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/lightPurple"
+                app:cardElevation="50dp"
+                app:layout_gravity="center">
+
+                <ImageView
+
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ct_card6" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+
+                    android:text="@string/card_CT1"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/lightPurple"
+                app:cardElevation="50dp"
+                app:layout_gravity="center">
+
+                <ImageView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ct_card1" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+
+                    android:text="@string/card_CT2"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/lightPurple"
+                app:cardElevation="50dp"
+                app:layout_gravity="center">
+
+                <ImageView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ct_card4" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+
+                    android:text="@string/card_CT3"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/lightPurple"
+                app:cardElevation="50dp"
+                app:layout_gravity="center">
+
+                <ImageView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ct_card2" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+
+                    android:text="@string/card_CT4"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/lightPurple"
+                app:cardElevation="50dp"
+                app:layout_gravity="center">
+
+                <ImageView
+
+                    android:layout_marginBottom="15dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ct_card3" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+
+                    android:text="@string/card_CT5"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/lightPurple"
+                app:cardElevation="50dp"
+                app:layout_gravity="center">
+
+                <ImageView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ct_card5" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+
+                    android:text="@string/card_CT6"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.gridlayout.widget.GridLayout>
+
+        <LinearLayout
+            android:id="@+id/desc_ct"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_carTuning"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="20dp"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/desc_CT"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/ptsans"
+                android:textAlignment="2"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:contentDescription="@null"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ct_footer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desc_ct"
+
+            />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+    <!-- TODO: Update blank fragment layout -->
+
+

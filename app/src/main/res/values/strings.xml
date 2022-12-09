@@ -1,0 +1,108 @@
+<resources>
+    <!-- Intro Page -->
+    <string name="app_name">Japanese Midnight Racing Car</string>
+    <string name="title1">JAPANESE</string>
+    <string name="title2">MIDNIGHT</string>
+    <string name="title3">RACING</string>
+    <string name="descTitle">Do you know about Initial D. The world of illegal racing in Japan is like racing on mountain roads. we show you what cars are in it.</string>
+
+
+    <!-- Home Page -->
+    <string name="heading1">GOOD NIGHT!</string>
+    <string name="quotes1">“ The road\s showing her teeth tonight.”  ~ Koichiro Iketani</string>
+
+    <string name="hint">Search Home</string>
+
+    <!-- Menu List -->
+    <string name="title_menu1">Car List</string>
+    <string name="title_menu2">Popular Car</string>
+    <string name="title_menu3">Car Tuning</string>
+    <string name="title_menu4">History</string>
+
+    <string name="desc_menu1">the list Vehicles of  Japanese Midnight Racing </string>
+    <string name="desc_menu2">what are the modes of this race</string>
+    <string name="desc_menu3">where will the race be held</string>
+    <string name="desc_menu4">the Behind of  Japanese Midnight Racing </string>
+
+
+    <!-- ABOUT ME PAGE -->
+    <string name="titleAboutMe">ABOUT ME</string>
+    <string name="devName">Naufal Adyatma</string>
+    <string name="devTitle">Student of vocational high school </string>
+
+
+    <string name="heading1_About">Work</string>
+    <string name="bodyWork">a 17 year old student who is studying software engineering for 2 years, I used to be interested in making my own world on a computer, so I studied with computer programs to broaden my horizons and experience and then complete my obligations and tasks. after that want to rise from my death to live happily and eternally. "like books and Japanese art".</string>
+
+    <string name="buttonText1">My Portofolio</string>
+
+    <string name="heading2_About">Bio</string>
+    <string name="yearBorn">2004</string>
+    <string name="yearSchool">2020</string>
+    <string name="descBorn">Born in Karanganyar, Indonesia</string>
+    <string name="descSchool">Join in Vocational High school 2 Surakarta as Software Enginnering student</string>
+
+
+    <string name="devEmail">naufaladyat234@gmail.com</string>
+    <string name="devTwitter">\@liverotsmoon</string>
+
+    <!-- SIDE NAV BAR -->
+    <string name="nav_Home">HOME</string>
+    <string name="nav_credits">CREDITS</string>
+
+    <string name="nav_open">Open Navigation drawer</string>
+    <string name="nav_close">Close Navigation drawer</string>
+
+
+    <!-- Car List -->
+    <string name="title_CarlList">Car List</string>
+    <string name="cl_Brand1">Nissan</string>
+    <string name="cl_Brand2">Honda</string>
+    <string name="cl_Brand3">Toyota</string>
+    <string name="cl_Brand4">Mazda</string>
+    <string name="cl_Brand5">Mitsubishi</string>
+    <string name="cl_Brand6">Subaru</string>
+
+
+    <!-- Car Tuning -->
+
+
+    <string name="title_CarTuning">Car Tuning</string>
+
+    <string name="card_CT1">Audio</string>
+    <string name="card_CT2">Interior</string>
+    <string name="card_CT3">Tires</string>
+    <string name="card_CT4">Engine Tuning</string>
+    <string name="card_CT5">Suspension Tuning</string>
+    <string name="card_CT6">Body Tuning</string>
+
+    <string name="desc_CT">Tuning mobil adalah modifikasi mobil untuk mengoptimalkannya untuk serangkaian persyaratan performa yang berbeda dari yang awalnya dirancang untuk dipenuhi. Paling umum ini adalah kinerja mesin yang lebih tinggi dan karakteristik penanganan yang dinamis tetapi mobil juga dapat diubah untuk memberikan penghematan bahan bakar yang lebih baik, atau respons yang lebih halus. Tujuan saat penyetelan adalah peningkatan kinerja kendaraan secara keseluruhan dalam menanggapi kebutuhan pengguna. Seringkali, penyetelan dilakukan dengan mengorbankan kinerja emisi, keandalan komponen, dan kenyamanan penumpang.
+
+Seiring berkembangnya budaya seputar mobil yang dimodifikasi, istilah penyetelan telah berkembang untuk mencakup perubahan kosmetik dan gaya yang dilakukan pemilik untuk mempersonalisasi kendaraan mereka. Perubahan ini dapat berkisar dari modifikasi fungsional yang dirancang untuk meningkatkan kinerja atau fungsionalitas mobil, hingga modifikasi visual yang mengubah estetika mobil dan, dalam kasus mod tertentu, terkadang merusak kinerja atau fungsionalitas mobil.</string>
+
+
+    <!-- Popular Car -->
+    <string name="pc_detail">Year \nCost \n0–100 km/h \nTop Speed</string>
+
+
+    <string name="pc_nameCar1">Toyota Supra A70 JZA70</string>
+    <string name="pc_car1detail">: 1988 \n: ¥2,866,000 \n: 6.3 \n: 245 km/h</string>
+
+    <string name="pc_nameCar2">NISSAN 180SX TYPE X</string>
+    <string name="pc_car2detail">: 1995 \n: ¥2,625 000 \n: 7.0 \n: 215 km/h</string>
+
+    <string name="pc_nameCar3">Mazda RX-7 s</string>
+    <string name="pc_car3detail">: 1991 \n: ¥2,892,000 \n: 6.3 \n: 246 km/h</string>
+    <string name="pc_nameCar4">Nissan Skyline GT-R R34</string>
+
+    <!-- history -->
+    <string name="h_desc">Beroperasi dari 1987 hingga 1999, Mid Night Club adalah salah satu klub balap jalanan paling terkenal dan sangat dihormati yang pernah menghiasi jalan raya Wangan antara Tokyo dan Yokohama.
+        \n
+        Sebuah tim balap jalanan yang menjadi model untuk kelahiran "Wangan MIDNIGHT" karya Michiharu Kusunoki, yang telah terjual lebih dari 17 juta kopi dan dibuat menjadi film.Dengan wilayah Kanto sebagai medan perang utama, setiap Sabtu tengah malam, sebuah kelompok yang terus mengukir fakta tercepat, baik dalam nama dan kenyataan, dengan membuka pertempuran pemompaan akselerator dalam jarak nyata yang berkecepatan sangat tinggi. Namanya "Mid Night"
+\n Dibentuk pada tahun 1982, Mid Night memiliki kesan yang kuat dari Wangan Expressway, tetapi mereka juga memiliki kehadiran yang luar biasa di berbagai panggung jalan seperti Tomei Expressway, Metropolitan Expressway, Hakone Turnpike, dan Daisan Keihin, menciptakan banyak legenda.
+\n Tim ini terdiri dari mobil-mobil seperti Porsche, GT-R, Z, RX-7, Supra, Ferrari, Lamborghini, NSX, dll. Tak perlu dikatakan bahwa semua mesin adalah mobil yang disetel secara khusus dengan semua hasrat pemiliknya. Di Porsche 911 Turbo, ketua pertama, setelah dibawa langsung ke markas Porsche, pengetahuan tentang 934 dan 935 dari Gr. Ini adalah karya khusus Porsche yang hanya ada satu di dunia.</string>
+
+
+
+
+</resources>
