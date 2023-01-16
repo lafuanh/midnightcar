@@ -6,8 +6,11 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
+
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -33,6 +36,8 @@ public class fragment_homemenu extends Fragment  {
 
 
     public CardView card1, card2, card3, card4;
+
+
     public fragment_homemenu() {
         // Required empty public constructor
     }
@@ -62,11 +67,7 @@ public class fragment_homemenu extends Fragment  {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
     }
-
 
 
     @Override
@@ -74,45 +75,54 @@ public class fragment_homemenu extends Fragment  {
                              Bundle savedInstanceState) {
 
         View myView = inflater.inflate(R.layout.fragment_homemenu, container, false);
-//        card1 = (CardView) myView.findViewById(R.id.card_hm1);
-//        card2 = (CardView) myView.findViewById(R.id.card_hm2);
-//        card3 = (CardView) myView.findViewById(R.id.card_hm3);
-//        card4 = (CardView) myView.findViewById(R.id.card_hm4);
-//
-//
-//
-//        card1.setOnClickListener((View.OnClickListener)this);
-//        card2.setOnClickListener((View.OnClickListener)this);
-//        card3.setOnClickListener((View.OnClickListener)this);
-//        card4.setOnClickListener((View.OnClickListener)this);
+        CardView card1 = (CardView) myView.findViewById(R.id.card_hm1);
+        CardView card2 = (CardView) myView.findViewById(R.id.card_hm2);
+        CardView card3 = (CardView) myView.findViewById(R.id.card_hm3);
+        CardView card4 = (CardView) myView.findViewById(R.id.card_hm4);
+
+
+        card1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getChildFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.homepage_fragments, new fragment_carlist());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+            }
+        });
+        card2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getChildFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.homepage_fragments, new popularcar());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+            }
+        });
+        card3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getChildFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.homepage_fragments, new cartuning());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+            }
+        });
+        card4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getChildFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.homepage_fragments, new history());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+            }
+        });
+
 
         return myView;
     }
-
-//    @SuppressLint("NonConstantResourceId")
-//    @Override
-//    public void onClick(View v) {
-//        Intent i;
-//        switch (v.getId()){
-//            case R.id.card_hm1:
-//                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-//                        new cartuning()).commit();
-//                toolbars.setTitle("Car Tuning");
-//                break;
-//            case R.id.card_hm2:
-//                i = new Intent(this.getActivity(), popularcar.class);
-//                startActivity(i);
-//                break;
-//            case R.id.card_hm3:
-//                i = new Intent(this.getActivity(), cartuning.class);
-//                startActivity(i);
-//                break;
-//            case R.id.card_hm4:
-//                i = new Intent(this.getActivity(), history.class);
-//                startActivity(i);
-//                break;
-//
-//
-//        }
-//    }
 }

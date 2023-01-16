@@ -1,0 +1,278 @@
+{
+    "brands": [
+        {
+            "name": "Nissan",
+            "cars": [
+                {
+                    "name": "GTR",
+                    "year": "2020",
+                    "cost_in_yen": "13000000",
+                    "0_100_kmh_speed_in_time": "2.5",
+                    "top_speed": "315",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-nissan-gtr.jpg"
+                },
+                {
+                    "name": "Skyline",
+                    "year": "1994",
+                    "cost_in_yen": "3500000",
+                    "0_100_kmh_speed_in_time": "5.6",
+                    "top_speed": "250",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1994-nissan-skyline.jpg"
+                },
+                {
+                    "name": "R35 GT-R Nismo",
+                    "year": "2018",
+                    "cost_in_yen": "18000000",
+                    "0_100_kmh_speed_in_time": "2.5",
+                    "top_speed": "315",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2018-nissan-gt-r-nismo.jpg"
+                },
+                {
+                    "name": "Silvia S15",
+                    "year": "1999",
+                    "cost_in_yen": "4500000",
+                    "0_100_kmh_speed_in_time": "6.0",
+                    "top_speed": "240",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1999-nissan-silvia-s15.jpg"
+                },
+                {
+                    "name": "180SX",
+                    "year": "1991",
+                    "cost_in_yen": "3000000",
+                    "0_100_kmh_speed_in_time": "7.0",
+                    "top_speed": "230",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1991-nissan-180sx.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Honda",
+            "cars": [
+                {
+                    "name": "NSX",
+                    "year": "2020",
+                    "cost_in_yen": "15000000",
+                    "0_100_kmh_speed_in_time": "2.9",
+                    "top_speed": "314",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-honda-nsx.jpg"
+                },
+                {
+                    "name": "Civic Type R",
+                    "year": "2020",
+                    "cost_in_yen": "6000000",
+                    "0_100_kmh_speed_in_time": "5.7",
+                    "top_speed": "270",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-honda-civic-type-r.jpg"
+                },
+                {
+                    "name": "S2000",
+                    "year": "2009",
+                    "cost_in_yen": "8000000",
+                    "0_100_kmh_speed_in_time": "6.1",
+                    "top_speed": "240",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2009-honda-s2000.jpg"
+                },
+                {
+                    "name": "Integra Type R",
+                    "year": "2001",
+                    "cost_in_yen": "4500000",
+                    "0_100_kmh_speed_in_time": "6.8",
+                    "top_speed": "240",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2001-honda-integra-type-r.jpg"
+                },
+                {
+                    "name": "CR-X Del Sol",
+                    "year": "1992",
+                    "cost_in_yen": "3000000",
+                    "0_100_kmh_speed_in_time": "8.2",
+                    "top_speed": "230",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1992-honda-cr-x-del-sol.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Toyota",
+            "cars": [
+                {
+                    "name": "Supra",
+                    "year": "2020",
+                    "cost_in_yen": "11000000",
+                    "0_100_kmh_speed_in_time": "3.8",
+                    "top_speed": "250",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-toyota-supra.jpg"
+                },
+                {
+                    "name": "GR Yaris",
+                    "year": "2020",
+                    "cost_in_yen": "6000000",
+                    "0_100_kmh_speed_in_time": "5.2",
+                    "top_speed": "230",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-toyota-gr-yaris.jpg"
+                },
+                {
+                    "name": "86",
+                    "year": "2020",
+                    "cost_in_yen": "7000000",
+                    "0_100_kmh_speed_in_time": "6.5",
+                    "top_speed": "240",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-toyota-86.jpg"
+                },
+                {
+                    "name": "AE86",
+                    "year": "1983",
+                    "cost_in_yen": "4500000",
+                    "0_100_kmh_speed_in_time": "8.0",
+                    "top_speed": "210",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1983-toyota-ae86.jpg"
+                },
+                {
+                    "name": "2000 GT",
+                    "year": "1967",
+                    "cost_in_yen": "3000000",
+                    "0_100_kmh_speed_in_time": "8.5",
+                    "top_speed": "215",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1967-toyota-2000-gt.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Mazda",
+            "cars": [
+                {
+                    "name": "MX-5",
+                    "year": "2020",
+                    "cost_in_yen": "5000000",
+                    "0_100_kmh_speed_in_time": "6.5",
+                    "top_speed": "220",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-mazda-mx-5.jpg"
+                },
+                {
+                    "name": "RX-7",
+                    "year": "1992",
+                    "cost_in_yen": "2000000",
+                    "0_100_kmh_speed_in_time": "5.2",
+                    "top_speed": "240",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1992-mazda-rx-7.jpg"
+                },
+                {
+                    "name": "Miata",
+                    "year": "2019",
+                    "cost_in_yen": "6000000",
+                    "0_100_kmh_speed_in_time": "6.2",
+                    "top_speed": "200",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2019-mazda-miata.jpg"
+                },
+                {
+                    "name": "RX-8",
+                    "year": "2007",
+                    "cost_in_yen": "5000000",
+                    "0_100_kmh_speed_in_time": "6.2",
+                    "top_speed": "230",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2007-mazda-rx-8.jpg"
+                },
+                {
+                    "name": "RX-3",
+                    "year": "1972",
+                    "cost_in_yen": "3000000",
+                    "0_100_kmh_speed_in_time": "9.2",
+                    "top_speed": "200",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1972-mazda-rx-3.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Mitsubishi",
+            "cars": [
+                {
+                    "name": "Evo",
+                    "year": "2015",
+                    "cost_in_yen": "8000000",
+                    "0_100_kmh_speed_in_time": "3.5",
+                    "top_speed": "270",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2015-mitsubishi-evo.jpg"
+                },
+                {
+                    "name": "Lancer Evolution X",
+                    "year": "2007",
+                    "cost_in_yen": "7000000",
+                    "0_100_kmh_speed_in_time": "4.5",
+                    "top_speed": "255",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2007-mitsubishi-lancer-evolution-x.jpg"
+                },
+                {
+                    "name": "3000 GT VR-4",
+                    "year": "1995",
+                    "cost_in_yen": "5000000",
+                    "0_100_kmh_speed_in_time": "5.6",
+                    "top_speed": "250",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1995-mitsubishi-3000-gt-vr-4.jpg"
+                },
+                {
+                    "name": "Starion",
+                    "year": "1987",
+                    "cost_in_yen": "3000000",
+                    "0_100_kmh_speed_in_time": "7.5",
+                    "top_speed": "240",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1987-mitsubishi-starion.jpg"
+                },
+                {
+                    "name": "Colt Galant GTO",
+                    "year": "1970",
+                    "cost_in_yen": "2000000",
+                    "0_100_kmh_speed_in_time": "8.5",
+                    "top_speed":"220",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1970-mitsubishi-colt-galant-gto.jpg"
+                    }
+            ]
+        },
+        {
+            "name": "Subaru",
+            "cars": [
+                {
+                    "name": "WRX STI",
+                    "year": "2020",
+                    "cost_in_yen": "10000000",
+                    "0_100_kmh_speed_in_time": "4.5",
+                    "top_speed": "250",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-subaru-wrx-sti.jpg"
+                },
+                {
+                    "name": "BRZ",
+                    "year": "2020",
+                    "cost_in_yen": "8000000",
+                    "0_100_kmh_speed_in_time": "6.5",
+                    "top_speed": "220",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-subaru-brz.jpg"
+                },
+                {
+                    "name": "Impreza WRX",
+                    "year": "2020",
+                    "cost_in_yen": "9000000",
+                    "0_100_kmh_speed_in_time": "4.9",
+                    "top_speed": "250",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2020-subaru-impreza-wrx.jpg"
+                },
+                {
+                    "name": "Legacy GT",
+                    "year": "2010",
+                    "cost_in_yen": "6000000",
+                    "0_100_kmh_speed_in_time": "6.5",
+                    "top_speed": "240",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/2010-subaru-legacy-gt.jpg"
+                },
+                {
+                    "name": "360",
+                    "year": "1968",
+                    "cost_in_yen": "3000000",
+                    "0_100_kmh_speed_in_time": "22",
+                    "top_speed": "110",
+                    "image_link": "https://cdn.motor1.com/images/mgl/0AN2V/s1/1968-subaru-360.jpg"
+                }
+            ]
+        }
+    ]
+}
+
+
+
+

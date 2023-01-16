@@ -16,7 +16,8 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class homepage extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
+public class
+homepage extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     DrawerLayout drawerLayout;
     NavigationView navigationview;
